@@ -48,3 +48,39 @@
     max-width: 632px;
     margin: 10px auto auto auto;
 }
+
+
+
+
+
+/* categories styles */
+
+.categories-item {
+    text-align: center;
+}
+
+.categories-item h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+
+.categories-item p {
+    color: #F00;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 30px auto 10px auto;
+}
+
+.categories-item h2 {
+    color: #070211;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.categories-item img {
+    max-width: 802.9px;
+    max-height: 500px;
+    margin-top: 45px;
+}
