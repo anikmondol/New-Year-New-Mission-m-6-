@@ -270,7 +270,7 @@
 
 
 /* holidays styles */
-.holidays-container{
+.holidays-container {
     margin-bottom: 300px;
 }
 
@@ -309,14 +309,15 @@
     margin-bottom: 10px;
 }
 
-.holidays-img .img-1{
+.holidays-img .img-1 {
     position: absolute;
     max-width: 500px;
     left: 35%;
     z-index: 1;
-   
+
 }
-.holidays-img .img-2{
+
+.holidays-img .img-2 {
     position: relative;
     top: 200px;
     border-radius: 5px;
@@ -324,3 +325,100 @@
 
 
 
+/* portfolio */
+
+.portfolio-container {
+    text-align: start;
+    margin-bottom: 45px;
+}
+
+.portfolio-container h6 {
+    color: #F00;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.portfolio-container h3 {
+    color: #070211;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 21px auto 16px auto;
+}
+.portfolio-container p {
+    color: rgba(7, 2, 17, 0.60);;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px; 
+    max-width: 850px;
+}
+
+
+
+/* portfolio-img */
+
+.portfolio{
+    margin-bottom: 100px;
+}
+
+.portfolio-img-group-1{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 15px;
+}
+.portfolio-img-group-2{
+    display: flex;
+    gap: 24px;
+}
+
+.img-item-1{
+    cursor: pointer;
+    transition: 1s;
+}
+.img-item-1:hover{
+    border-radius: 50%;
+}
+
+
+.img-item-2{
+    cursor: pointer;
+    transition: 1s;
+}
+.img-item-2:hover{
+    border-radius: 50%;
+}
+
+
+.img-item-3{
+    cursor: pointer;
+    transition: 1s;
+}
+.img-item-3:hover{
+    border-radius: 50%;
+}
+
+
+.img-item-4{
+    cursor: pointer;
+    transition: 1s;
+}
+.img-item-4:hover{
+    border-radius: 50%;
+}
+
+
+.img-item-5{
+    cursor: pointer;
+    transition: 1s;
+}
+.img-item-5:hover{
+    border-radius: 50%;
+}
+
+
+.img-item-6{
+    cursor: pointer;
+    transition: 1s;
+}
+.img-item-6:hover{
+    border-radius: 50%;
+}
