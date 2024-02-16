@@ -14,10 +14,55 @@
 
 
 
-
-
-
 /* banner styes */
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(223, 200, 200);
+    padding: 20px;
+}
+
+.img-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icon small {
+    font-size: 15px;
+    color: rgb(240, 8, 8);
+    font-style: italic;
+}
+
+.nav-icon {
+    width: 50px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-style: italic;
+}
+
+.menu-items li {
+    list-style: none;
+}
+
+
+.menu-items li:hover {
+    color: rgb(65, 186, 197);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
 
 .banner {
     background-image: url("../resources/Banner.png"), linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -181,7 +226,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    background-color: rgba(250, 248, 248, 0.94);
+    background-color: rgb(250, 248, 248);
     border-radius: 15px;
     margin-bottom: 100px;
 }
@@ -241,7 +286,6 @@
     border: 15px solid white;
     border-radius: 100%;
     max-width: 350px;
-
 
 }
 
